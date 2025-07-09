@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Copa Fútbol 2025 - RUFRANO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header-content">
+      <!-- Logo -->
+      <div class="logo-section">
+        <img src="/img/Logo mixto blanco .png" alt="mixto" class="logo">
+        <span class="logo-text">Torneo Futbol 2025</span>
+      </div>
+
+      <!--search -->
+      <nav class="nav-container" id="nav-container">
+        <div class="nav">
+          <a href="#inicio" class="nav-link">Inicio</a>
+          <a href="#partidos" class="nav-link">Partidos</a>
+          <a href="#grupos" class="nav-link">Grupos</a>
+          <a href="#equipos" class="nav-link">Equipos</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🏆 Copa Union 2025</div>
+                <h1 class="hero-title">
+                    La Pasión del Fútbol
+                    <span class="hero-highlight">Nos Une</span>
+                </h1>
+                <p class="hero-description">
+                    Únete al torneo más emocionante del año. Equipos de todas las edades compitiendo por la gloria en RUFRANO Sport + Wellness Club.
+                </p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">16</span>
+                        <span class="stat-text">Equipos</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-text">Grupos</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">11</span>
+                        <span class="stat-text">Semanas</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn-primary" onclick="document.getElementById('grupos').scrollIntoView({behavior: 'smooth'})">Ver Grupos</button>
+                    <button class="btn-secondary" onclick="document.getElementById('partidos').scrollIntoView({behavior: 'smooth'})">Conocer Fixture</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team Section -->
+    <section class="teams-section" id="equipos">         
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Equipos</h2>
+                <p>Conoce a los valientes competidores de esta temporada</p>
+            </div>
+                        
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img class="team-logo-standard" src="/imgShil/bluelionsAm.png" alt="Blue Liones">
+                        <div class="team-rank">#1</div>
+                    </div>
+                    <h3 class="team-name-card">Blue Liones</h3>
+                    <div class="team-group-badge">Grupo C</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/COsaAM.png"alt="Cosa Nostra">
+                        <div class="team-rank">#2</div>
+                    </div>
+                    <h3 class="team-name-card">Cosa Nostra</h3>
+                    <div class="team-group-badge">Grupo C</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/vodkaAm.png" alt="Vodka Juniors">
+                        <div class="team-rank">#3</div>
+                    </div>
+                    <h3 class="team-name-card">Vodka Juniors</h3>
+                    <div class="team-group-badge">Grupo C</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/wolfHamWS.png"alt="Wolf Hamton">
+                        <div class="team-rank">#4</div>
+                    </div>
+                    <h3 class="team-name-card">WolferHamton</h3>
+                    <div class="team-group-badge">Grupo B</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/wolfteamAm.png" alt="Wolf Team">
+                        <div class="team-rank">#5</div>
+                    </div>
+                    <h3 class="team-name-card">Wolf Team</h3>
+                    <div class="team-group-badge">Grupo D</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/interMilAM.png" alt="Inter Milan">
+                        <div class="team-rank">#6</div>
+                    </div>
+                    <h3 class="team-name-card">Inter Milan</h3>
+                    <div class="team-group-badge">Grupo B</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img class="team-logo-standard" src="/imgShil/cuyopic.png"alt="CuyoFC">
+                        <div class="team-rank">#7</div>
+                    </div>
+                    <h3 class="team-name-card">CuyoFC</h3>
+                    <div class="team-group-badge">Grupo D</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/escuelita.png"  alt="EscuelitaFC">
+                        <div class="team-rank">#8</div>
+                    </div>
+                    <h3 class="team-name-card">Escuelita FC</h3>
+                    <div class="team-group-badge">Grupo D</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                       <img class="team-logo-standard" src="/imgShil/galonetaAm.png" alt="Galoneta">
+                        <div class="team-rank">#9</div>
+                    </div>
+                    <h3 class="team-name-card">Galoneta</h3>
+                    <div class="team-group-badge">Grupo A</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/liricosAm.png"  alt="Liricos FC">
+                        <div class="team-rank">#10</div>
+                    </div>
+                    <h3 class="team-name-card">Liricos FC</h3>
+                    <div class="team-group-badge">Grupo C</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/MEmerengAM.png" alt="memerenguess">
+                        <div class="team-rank">#11</div>
+                    </div>
+                    <h3 class="team-name-card">memerengues</h3>
+                    <div class="team-group-badge">Grupo B</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/rayoAm.png"  alt="Rayo Borrachin">
+                        <div class="team-rank">#12</div>
+                    </div>
+                    <h3 class="team-name-card">Rayo Borrachin</h3>
+                    <div class="team-group-badge">Grupo A</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/realBlackam.png" alt="Real Black">
+                        <div class="team-rank">#13</div>
+                    </div>
+                    <h3 class="team-name-card">Real Black</h3>
+                    <div class="team-group-badge">Grupo A</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/resacapic-removebg-preview.png" alt="Resaca FC">
+                        <div class="team-rank">#14</div>
+                    </div>
+                    <h3 class="team-name-card">Resaca FC</h3>
+                    <div class="team-group-badge">Grupo B</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/ruspic.png" alt="Rustico Deportivo">
+                        <div class="team-rank">#15</div>
+                    </div>
+                    <h3 class="team-name-card">Rustico Deportivo</h3>
+                    <div class="team-group-badge">Grupo D</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-card-header">
+                         <img class="team-logo-standard" src="/imgShil/vibespic-removebg-preview.png" alt="Soccer Viber">
+                        <div class="team-rank">#16</div>
+                    </div>
+                    <h3 class="team-name-card">Soccer Vibes</h3>
+                    <div class="team-group-badge">Grupo A</div>
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Victorias</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">1</span>
+                            <span class="stat-label">Derrotas</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Puntos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Groups stage Section -->
+    <section class="groups-section" id="grupos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fases de Grupos</h2>
+                <p>16 equipos divididos en 4 grupos competitivos</p>
+            </div>
+            
+            <div class="groups-grid">
+                <!-- Group A -->
+                <div class="group-card">
+                    <div class="group-header">
+                        <h3 class="group-title">Grupo A</h3>
+                        <div class="group-badge">A</div>
+                    </div>
+                    <div class="group-teams">
+                        <div class="group-team">
+                            <img src="/imgShil/realBlackam.png" alt="real black" class="group-team-logo">
+                            <span class="group-team-name">Real Black</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/vibespic-removebg-preview.png" alt="soccer vibes" class="group-team-logo">
+                            <span class="group-team-name">Soccer Vibes</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/galonetaAm.png" alt="Galoneta" class="group-team-logo">
+                            <span class="group-team-name">Galoneta</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/rayoAm.png" alt="Rayo" class="group-team-logo">
+                            <span class="group-team-name">Rayo Borrachin</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- group B -->
+                <div class="group-card">
+                    <div class="group-header">
+                        <h3 class="group-title">Grupo B</h3>
+                        <div class="group-badge">B</div>
+                    </div>
+                    <div class="group-teams">
+                        <div class="group-team">
+                            <img src="/imgShil/wolfHamWS.png" alt="Wolfha" class="group-team-logo">
+                            <span class="group-team-name">Wolferhampton</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/resacapic-removebg-preview.png" alt="resaca" class="group-team-logo">
+                            <span class="group-team-name">Resaca</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                         <div class="group-team">
+                            <img src="/imgShil/MEmerengAM.png" alt="memerengues" class="group-team-logo">
+                            <span class="group-team-name">Memerengues</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/interMilAM.png" alt="inter" class="group-team-logo">
+                            <span class="group-team-name">Inter FC</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- group C -->
+                <div class="group-card">
+                    <div class="group-header">
+                        <h3 class="group-title">Grupo C</h3>
+                        <div class="group-badge">C</div>
+                    </div>
+                    <div class="group-teams">
+                        <div class="group-team">
+                            <img src="/imgShil/liricosAm.png" alt="liricos" class="group-team-logo">
+                            <span class="group-team-name">Liricos FC</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/bluelionsAm.png" alt="blue" class="group-team-logo">
+                            <span class="group-team-name">Blue Lions</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/COsaAM.png" alt="cosa Nostra" class="group-team-logo">
+                            <span class="group-team-name">Cosa Nostra</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/vodkaAm.png" alt="Vodka" class="group-team-logo">
+                            <span class="group-team-name">Vodka Juniors</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- group D -->
+                <div class="group-card">
+                    <div class="group-header">
+                        <h3 class="group-title">Grupo D</h3>
+                        <div class="group-badge">D</div>
+                    </div>
+                    <div class="group-teams">
+                        <div class="group-team">
+                            <img src="/imgShil/cuyopic.png" alt="cuyo" class="group-team-logo">
+                            <span class="group-team-name">Cuyo FC</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/escuelita.png" alt="Escuelita" class="group-team-logo">
+                            <span class="group-team-name">Escuelita FC</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/wolfteamAm.png" alt="wolfteamAm" class="group-team-logo">
+                            <span class="group-team-name">Wolf Team</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                        <div class="group-team">
+                            <img src="/imgShil/ruspic.png" alt="Rustico" class="group-team-logo">
+                            <span class="group-team-name">Deportivo Rustico</span>
+                            <div class="group-team-stats">
+                                <span class="points">0 pts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Group Stage Info -->
+            <div class="group-stage-info">
+                <div class="stage-info-card">
+                    <h4>📋 Formato del Torneo</h4>
+                    <ul>
+                        <li>16 equipos divididos en 4 grupos de 4</li>
+                        <li>Cada equipo juega 6 partidos en fase de grupos</li>
+                        <li>Los 2 primeros de cada grupo avanzan a Copa de Oro y los 2 restantes a Copa de Plata</li>
+                        <li>Sistema de eliminación directa desde cuartos</li>
+                    </ul>
+                </div>
+                <div class="stage-info-card">
+                    <h4>🏆 Clasificación</h4>
+                    <ul>
+                        <li><strong>Victoria:</strong> 3 puntos</li>
+                        <li><strong>Empate:</strong> 1 punto</li>
+                        <li><strong>Derrota:</strong> 0 puntos</li>
+                        <li>Criterios: Puntos, diferencia de gol, goles a favor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Fixture Section -->
+    <section class="matches-section" id="partidos">
+        <div class="container">
+            <div class="matches-header">
+                <h1>🗓️ Fixture Copa Unión Mixta 🤪🏆</h1>
+                <p class="matches-subtitle">Todos los partidos de la fase de grupos</p>
+            </div>
+
+            <!-- Jounier filters -->
+            <div class="fixture-filters">
+                <button class="ins-button" onclick="showJournie('all')">Todas las Fechas</button>
+                <button class="ins-button" onclick="showJournie('1')">Fecha 1</button>
+                <button class="ins-button" onclick="showJournie('2')">Fecha 2</button>
+                <button class="ins-button" onclick="showJournie('3')">Fecha 3</button>
+                <button class="ins-button" onclick="showJournie('4')">Fecha 4</button>
+                <button class="ins-button" onclick="showJournie('5')">Fecha 5</button>
+                <button class="ins-button" onclick="showJournie('6')">Fecha 6</button>
+            </div>
+
+            <!-- date 1 -->
+            <div id="date-1" class="fixture-round date">
+                <div class="round-header">
+                    <h2>📅 FECHA 1</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Real Black </span>
+                                    <span class="num-name"> 5 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 3 </span>
+                                    <span class="team-name"> Soccer Vibes</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Galoneta</span>
+                                    <span class="num-name"> 7 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 5 </span>
+                                    <span class="team-name">Rayo Borrachín</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Resaca</span>
+                                    <span class="num-name"> 7 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 6 </span>
+                                    <span class="team-name">Wolferhampton</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Memerengues</span>
+                                    <span class="num-name"> 2 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 12 </span>
+                                    <span class="team-name">Inter FC</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Líricos FC</span>
+                                    <span class="num-name"> 5 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 8 </span>
+                                    <span class="team-name">Blue Lions</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cosa Nostra</span>
+                                    <span class="num-name"> 1 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 11 </span>
+                                    <span class="team-name">Vodka</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cuyo FC</span>
+                                    <span class="num-name"> 6 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 5 </span>
+                                    <span class="team-name">Escuelita FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolf Team</span>
+                                    <span class="num-name"> 12 </span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="num-name"> 1 </span>
+                                    <span class="team-name">Deportivo Rústico</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- date 2 -->
+            <div id="date-2" class="fixture-round date" style="display: none;">
+                <div class="round-header">
+                    <h2>📅 FECHA 2</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Real Black</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Galoneta</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Soccer Vibes</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Rayo Borrachín</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Resaca</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Memerengues</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolferhampton</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Inter FC</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Líricos FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cosa Nostra</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Blue Lions</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Vodka</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cuyo FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Wolf Team</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Escuelita FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Deportivo Rústico</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- date 3 -->
+            <div id="date-3" class="fixture-round date" style="display: none;">
+                <div class="round-header">
+                    <h2>📅 FECHA 3</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Real Black</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Rayo Borrachín</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Soccer Vibes</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Galoneta</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Resaca</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Inter FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolferhampton</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Memerengues</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Líricos FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Vodka</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Blue Lions</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cosa Nostra</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cuyo FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Deportivo Rústico</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Escuelita FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Wolf Team</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- date 4 -->
+            <div id="date-4" class="fixture-round date" style="display: none;">
+                <div class="round-header">
+                    <h2>📅 FECHA 4</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Soccer Vibes</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Real Black</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Rayo Borrachín</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Galoneta</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Inter FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Resaca</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Memerengues</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Wolferhampton</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Vodka</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Líricos FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cosa Nostra</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Blue Lions</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Deportivo Rústico</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cuyo FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolf Team</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Escuelita FC</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- date 5 -->
+            <div id="date-5" class="fixture-round date" style="display: none;">
+                <div class="round-header">
+                    <h2>📅 FECHA 5</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Galoneta</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Real Black</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Rayo Borrachín</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Soccer Vibes</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Memerengues</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Resaca</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Inter FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Wolferhampton</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Cosa Nostra</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Líricos FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Vodka</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Blue Lions</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolf Team</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cuyo FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Deportivo Rústico</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Escuelita FC</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- date 6 -->
+            <div id="date-6" class="fixture-round date" style="display: none;">
+                <div class="round-header">
+                    <h2>📅 FECHA 6</h2>
+                </div>
+                
+                <div class="matches-grid">
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo A</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Rayo Borrachín</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Real Black</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Galoneta</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Soccer Vibes</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo B</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Wolferhampton</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Resaca</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Inter FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Memerengues</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo C</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Blue Lions</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Líricos FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Vodka</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cosa Nostra</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="group-matches">
+                        <h3 class="group-title">🏆 Grupo D</h3>
+                        <ul class="match-list">
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Escuelita FC</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Cuyo FC</span>
+                                </div>
+                            </li>
+                            <li class="match-item">
+                                <div class="match-teams">
+                                    <span class="team-name">Deportivo Rústico</span>
+                                    <span class="vs-separator">vs</span>
+                                    <span class="team-name">Wolf Team</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Unirte a la Acción?</h2>
+                <p>Forma parte del torneo más emocionante del año. Inscribe tu equipo o ven a apoyar a tus favoritos.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary large" onclick="mostrarAlerta()">Inscribirse</button>
+                    <a href="https://api.whatsapp.com/send?phone=542644162532&text=Hola!" class="btn-secondary large">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <img class="logo" src="/img/rufrano.png" alt="Logo Rufrano">
+                        <div class="footer-text">
+                            <h3>RUFRANO Sport + Wellness Club</h3>
+                        </div>
+                    </div>
+                                        
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Torneo</h4>
+                            <a href="#grupos">Grupos</a>
+                            <a href="#partidos">Partidos</a>
+                            <a href="#equipos">Equipos</a>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Club</h4>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Rufrano+Sport+San+Juan" target="_blank">Instalaciones</a>
+                            <a href="https://www.instagram.com/rufranosport/" target="_blank">Servicios</a>
+                            <a href="https://api.whatsapp.com/send?phone=542644162532&text=Hola!" target="_blank">Eventos</a>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contacto</h4>
+                            <p>📍 Juan José Castelli 500 Sur, J5400 San Juan</p>
+                            <p>📞 (264) 520 0822</p>
+                        </div>
+                    </div>
+                    <div class="social-icons-container">
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/copaunion_futbolmixto/" target="_blank" rel="noreferrer">
+                                <img src="/img/icons8-instagram-50 (2).png" alt="Instagram">
+                            </a>
+                            <a href="https://wa.me/542645200822" target="_blank" rel="noreferrer">
+                                <img src="/img/icons8-whatsapp-50 (1).png" alt="WhatsApp">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Pia Alenda. Todos los derechos reservados.</p>
+                    <p class="footer-contact-email">
+        📧 <a href="mailto:piaalendaa@gmail.com">piaalendaa@gmail.com</a>
+    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      function mostrarAlerta() {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "¡Las inscripciones ya cerraron!",
+          confirmButtonColor: "#5E503F",
+        });
+      }
+
+    //JavaScript
+function showJournie(fecha) {
+    const fechas = document.querySelectorAll('.date');
+    fechas.forEach(f => f.style.display = 'none');
+    if (fecha === 'all') { 
+        fechas.forEach(f => f.style.display = 'block');
+    } else {
+        const fechaMostrar = document.getElementById('date-' + fecha);
+        if (fechaMostrar) {
+            fechaMostrar.style.display = 'block';
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showJournie('all');
+});
+</script>
+
+
+
+</script>
+<button id="btn-subir" title="Ir arriba">↑</button>
+
+<script>
+  const btnSubir = document.getElementById("btn-subir");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      btnSubir.style.display = "block";
+    } else {
+      btnSubir.style.display = "none";
+    }
+  };
+
+  // scroll
+  btnSubir.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+
+</body>
+</html>
